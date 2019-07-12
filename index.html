@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>from inside out</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.ico">
+
+  <!-- scripts -->
+  <!-- load JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- math.js -->
+  <!-- <script src="node_modules/mathjs/dist/math.js" type="text/javascript"></script> -->
+
+
+  <!-- Load the Paper.js library -->
+  <!-- <script type="text/javascript" src="node_modules/paper/dist/paper-full.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.11.8/paper-full.min.js"></script>
+  <script src=https://cdnjs.cloudflare.com/ajax/libs/mathjs/5.1.1/math.js></script>
+
+  <!-- Load the p5 library -->
+  <script src="node_modules/p5/lib/p5.min.js"></script>
+
+  <script type="text/paperscript" canvas="myCanvas"></script>
+
+  <script type="text/javascript" src="js/svg_kanji.js"></script>
+  <script type="text/javascript" src="js/kanji.js"></script>
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div id="intro" style="margin-bottom: 5vh"><center>
+    <canvas id="myCanvas" class="element" onClick="execute_paper(this.id)" ></canvas></center>
+  </div>
+
+
+  <div class="container" >
+    <div id="intro" class="row" >
+      <center>
+      <!-- <div class="twelve columns" >
+        <img id="kanji0" src="./kanji/0.svg" width="200" height="200" onClick="execute_paper(this.id)">
+        <img id="kanji1" src="./kanji/1.svg" width="200" height="200">
+        <img id="kanji1" src="./kanji/2.svg" width="200" height="200">
+        <img id="kanji1" src="./kanji/3.svg" width="200" height="200">
+        <img id="kanji1" src="./kanji/4.svg" width="200" height="200">
+        <img id="kanji1" src="./kanji/5.svg" width="200" height="200">
+        <img id="kanji1" src="./kanji/6.svg" width="200" height="200">
+      </div> -->
+    </center>
+    </div>
+
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
