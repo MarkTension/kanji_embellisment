@@ -126,7 +126,7 @@ $(document).ready(function() {
     global_item_var.strokeColor = "black";
 
     onFrame();
-  }, 1000);
+  }, 1500);
 
   var counter = 0;
 
