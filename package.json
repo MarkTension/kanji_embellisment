@@ -14,7 +14,7 @@
     "mathjs": "^6.0.2",
     "p5": "^0.8.0",
     "paper": "^0.12.1",
-    "underscore": "^1.9.1"
+    "underscore": "^1.12.1"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1"
