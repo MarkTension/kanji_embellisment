@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "focus-visible": "^4.1.5",
-    "mathjs": "^6.0.2",
+    "mathjs": "^7.5.1",
     "p5": "^0.8.0",
     "paper": "^0.12.1",
     "underscore": "^1.9.1"
